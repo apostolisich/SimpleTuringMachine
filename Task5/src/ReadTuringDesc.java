@@ -17,7 +17,6 @@ public class ReadTuringDesc {
 			
 			String line1 = bufferedReader.readLine();
 			numOfStates = Integer.parseInt(line1);
-			//Αποθηκεύει το σύνολο των καταστάσεων αλλά δεν χρησιμοποιείται
 			
 			String line2 = bufferedReader.readLine();
 			startingState = Integer.parseInt(line2);
